@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <Bugsnag_Notifier>
+      <version>1.0.0</version>
+    </Bugsnag_Notifier>
+  </modules>
+  <global>
+    <models>
+      <Bugsnag_Notifier>
+        <class>Bugsang_Notifier_Model</class>
+      </Bugsnag_Notifier>
+    </models>
+    <events>
+      <controller_action_predispatch>
+        <observers>
+          <bugsnag_controller_action_predispatch>
+            <type>singleton</type>
+            <class>Bugsnag_Notifier_Model_Observer</class>
+            <method>initBugsnag</method>
+          </bugsnag_controller_action_predispatch>
+        </observers>
+      </controller_action_predispatch>
+    </events>
+  </global>
+  <admin>
+    <routers>
+      <adminhtml>
+        <args>
+          <modules>
+            <Bungsnag_Notifier after="Mage_Adminhtml">Bugsnag_Notifier</Bungsnag_Notifier>
+          </modules>
+        </args>
+      </adminhtml>
+    </routers>
+  </admin>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Bugsnag_Notifier</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Bugsnag Notifier for Magento gives you instant notification of errors in your Magento applications.</summary>
+    <description>Bugsnag captures errors in real-time from your web, mobile and desktop applications, helping you to understand and resolve them as fast as possible. Create a free account to start capturing errors from your applications.</description>
+    <notes>The first release!</notes>
+    <authors><author><name>MAG002804728</name><user>MAG002804728</user><email>kyrylo@bugsnag.com</email></author></authors>
+    <date>2014-09-05</date>
+    <time>21:05:54</time>
+    <contents><target name="magecommunity"><dir name="Bugsnag"><dir name="Notifier"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Form"><file name="Button.php" hash="6d8ad5ed45ecddc929d8f627a663779d"/></dir></dir></dir></dir></dir><dir name="Model"><file name="Observer.php" hash="e64e947aaad75845173f73ed611ba334"/><file name="Severity.php" hash="2ffc28c09bee8ae4d3194ceb33e93cd4"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="BugsnagController.php" hash="26f257486b19e4674f47b47f63529821"/></dir></dir><dir name="etc"><file name="config.xml" hash="212f7e4cf9650c2d54f098e56b4d1514"/><file name="system.xml" hash="6c74fe6e6e23fc5685002ed103a53366"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="bugsnag"><dir name="system"><dir name="config"><file name="button.phtml" hash="3cbf97942a6124b5bbdc1633dff99352"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Bugsnag_Notifier.xml" hash="5af25ac572e2c7e04f03edfa30d36976"/></dir></target><target name="magelib"><dir name="bugsnag-php"><file name="Autoload.php" hash="141a845b8baaebee4232b30540d5cda5"/><file name="Client.php" hash="4c43e67c648cac333f78f363cf37dc69"/><file name="Configuration.php" hash="805b07608edb9a2d930558fa52ade5a7"/><file name="Diagnostics.php" hash="2ee79a831f84025135ef4fc0c8550747"/><file name="Error.php" hash="e8e1cb0bc961263185c4ec9e68387a65"/><file name="ErrorTypes.php" hash="118f8a29bfcd0d33a98363c30eb9f39f"/><file name="Notification.php" hash="6cf0c6f5a30852f559d6beec0a40ef0c"/><file name="Request.php" hash="422a3cc71777af8bb426988a77dcaa6e"/><file name="Stacktrace.php" hash="9d131aa378157acbffba7136128fe57d"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.15</max></php></required></dependencies>
+</package>
