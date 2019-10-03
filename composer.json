@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Bugsnag_Notifier",
+    "name": "OpenMageModuleFostering\/Bugsnag_Notifier",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "The Bugsnag Notifier for Magento gives you instant notification of errors in your Magento applications.",
     "authors": [
-    {
-        "name": "MAG002804728",
-        "email": "kyrylo@bugsnag.com"
-    }
-],
+        {
+            "name": "MAG002804728",
+            "email": "kyrylo@bugsnag.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
