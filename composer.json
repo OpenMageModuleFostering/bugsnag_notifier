@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Bugsnag_Notifier",
+    "name": "openmage-module-fostering\/bugsnag_notifier",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
